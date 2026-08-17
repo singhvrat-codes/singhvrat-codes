@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 350" width="490" height="350">
+<style>
+  .card-bg { fill: #0d1117; rx: 10px; ry: 10px; }
+  .card-border { fill: none; stroke: #30363d; stroke-width: 1; rx: 10px; ry: 10px; }
+  .top-bar { fill: #161b22; rx: 10px; ry: 10px; }
+  .dot-red { fill: #ff5f56; }
+  .dot-yellow { fill: #ffbd2e; }
+  .dot-green { fill: #27c93f; }
+  .title-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; fill: #8b949e; font-weight: 600; }
+  .key-text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 13px; font-weight: bold; fill: #58a6ff; }
+  .val-text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 13px; fill: #c9d1d9; }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .animated-row { opacity: 0; animation: fadeIn 0.4s ease-out forwards; }
+</style>
+<rect width="490" height="350" class="card-bg" />
+<rect width="490" height="32" class="top-bar" />
+<rect width="488" height="348" x="1" y="1" class="card-border" />
+<circle cx="18" cy="16" r="5" class="dot-red" />
+<circle cx="34" cy="16" r="5" class="dot-yellow" />
+<circle cx="50" cy="16" r="5" class="dot-green" />
+<text x="245" y="20" text-anchor="middle" class="title-text">user@github ~ neofetch</text>
+<g class="animated-row" style="animation-delay: 0.00s;">
+  <text x="24" y="65" class="key-text" style="fill: #58a6ff;">user@github</text>
+  <text x="140" y="65" class="val-text" style="fill: #8b949e;">-----------------------------</text>
+</g>
+<g class="animated-row" style="animation-delay: 0.12s;">
+  <text x="24" y="93" class="key-text" style="fill: #8b949e;">OS:</text>
+  <text x="130" y="93" class="val-text">Ubuntu / macOS / Windows</text>
+</g>
+<g class="animated-row" style="animation-delay: 0.24s;">
+  <text x="24" y="121" class="key-text" style="fill: #8b949e;">Host:</text>
+  <text x="130" y="121" class="val-text">Developer Workstation v2026</text>
+</g>
+<g class="animated-row" style="animation-delay: 0.36s;">
+  <text x="24" y="149" class="key-text" style="fill: #8b949e;">Shell:</text>
+  <text x="130" y="149" class="val-text">zsh / bash 5.2</text>
+</g>
+<g class="animated-row" style="animation-delay: 0.48s;">
+  <text x="24" y="177" class="key-text" style="fill: #58a6ff;">Role:</text>
+  <text x="130" y="177" class="val-text">Full-Stack &amp; Systems Engineer</text>
+</g>
+<g class="animated-row" style="animation-delay: 0.60s;">
+  <text x="24" y="205" class="key-text" style="fill: #7ee787;">Stack:</text>
+  <text x="130" y="205" class="val-text">Python, TypeScript, Rust, Docker</text>
+</g>
+<g class="animated-row" style="animation-delay: 0.72s;">
+  <text x="24" y="233" class="key-text" style="fill: #ffa657;">Now:</text>
+  <text x="130" y="233" class="val-text">Building animated SVG profile generators</text>
+</g>
+<g class="animated-row" style="animation-delay: 0.84s;">
+  <text x="24" y="261" class="key-text" style="fill: #d2a8ff;">Highlights:</text>
+  <text x="130" y="261" class="val-text">9,000+ Annual Contribs | Open Source Contributor</text>
+</g>
+<g class="animated-row" style="animation-delay: 0.96s;">
+  <rect x="24" y="299" width="20" height="12" rx="3" fill="#161b22" />
+  <rect x="48" y="299" width="20" height="12" rx="3" fill="#ff5f56" />
+  <rect x="72" y="299" width="20" height="12" rx="3" fill="#27c93f" />
+  <rect x="96" y="299" width="20" height="12" rx="3" fill="#ffbd2e" />
+  <rect x="120" y="299" width="20" height="12" rx="3" fill="#58a6ff" />
+  <rect x="144" y="299" width="20" height="12" rx="3" fill="#bc8cff" />
+  <rect x="168" y="299" width="20" height="12" rx="3" fill="#39d353" />
+  <rect x="192" y="299" width="20" height="12" rx="3" fill="#e6edf3" />
+</g>
+</svg>

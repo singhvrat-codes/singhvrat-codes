@@ -1,307 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 339" width="370" height="339">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 253" width="370" height="253">
 <style>
-  .ascii-text { font-family: "Fira Code", "Courier New", Courier, monospace; font-size: 5.2px; fill: #e6edf3; white-space: pre; font-weight: 600; letter-spacing: -0.2px; }
+  .ascii-text { font-family: "Cascadia Code", "Fira Code", "Courier New", Consolas, monospace; font-size: 9.8px; fill: #e6edf3; white-space: pre; font-weight: bold; }
   .bg { fill: #0d1117; rx: 10px; ry: 10px; }
   .border { fill: none; stroke: #30363d; stroke-width: 1; rx: 10px; ry: 10px; }
-  .badge { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 10px; font-weight: bold; fill: #ff4d4d; }
+  .header-badge { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; font-weight: bold; fill: #ff4d4d; }
 </style>
-<rect width="370" height="339" class="bg" />
-<rect width="368" height="337" x="1" y="1" class="border" />
-<text x="16" y="20" class="badge">🏎️ FERRARI F40 HD</text>
+<rect width="370" height="253" class="bg" />
+<rect width="368" height="251" x="1" y="1" class="border" />
+<text x="20" y="24" class="header-badge">🏎️ FERRARI F40</text>
 <defs>
   <clipPath id="row-clip-0">
-    <rect x="19.4" y="25.0" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.00s" dur="0.07s" fill="freeze" />
+    <rect x="62.8" y="33.0" width="0" height="18.5">
+      <animate attributeName="width" from="0" to="274.4" begin="0.00s" dur="0.27s" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="row-clip-1">
-    <rect x="19.4" y="31.2" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.07s" dur="0.07s" fill="freeze" />
+    <rect x="62.8" y="47.5" width="0" height="18.5">
+      <animate attributeName="width" from="0" to="274.4" begin="0.27s" dur="0.27s" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="row-clip-2">
-    <rect x="19.4" y="37.4" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.13s" dur="0.07s" fill="freeze" />
+    <rect x="62.8" y="62.0" width="0" height="18.5">
+      <animate attributeName="width" from="0" to="274.4" begin="0.54s" dur="0.27s" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="row-clip-3">
-    <rect x="19.4" y="43.6" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.20s" dur="0.07s" fill="freeze" />
+    <rect x="62.8" y="76.5" width="0" height="18.5">
+      <animate attributeName="width" from="0" to="274.4" begin="0.81s" dur="0.27s" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="row-clip-4">
-    <rect x="19.4" y="49.8" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.26s" dur="0.07s" fill="freeze" />
+    <rect x="62.8" y="91.0" width="0" height="18.5">
+      <animate attributeName="width" from="0" to="274.4" begin="1.08s" dur="0.27s" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="row-clip-5">
-    <rect x="19.4" y="56.0" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.33s" dur="0.07s" fill="freeze" />
+    <rect x="62.8" y="105.5" width="0" height="18.5">
+      <animate attributeName="width" from="0" to="274.4" begin="1.35s" dur="0.27s" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="row-clip-6">
-    <rect x="19.4" y="62.2" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.39s" dur="0.07s" fill="freeze" />
+    <rect x="62.8" y="120.0" width="0" height="18.5">
+      <animate attributeName="width" from="0" to="274.4" begin="1.62s" dur="0.27s" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="row-clip-7">
-    <rect x="19.4" y="68.4" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.46s" dur="0.07s" fill="freeze" />
+    <rect x="62.8" y="134.5" width="0" height="18.5">
+      <animate attributeName="width" from="0" to="274.4" begin="1.88s" dur="0.27s" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="row-clip-8">
-    <rect x="19.4" y="74.6" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.52s" dur="0.07s" fill="freeze" />
+    <rect x="62.8" y="149.0" width="0" height="18.5">
+      <animate attributeName="width" from="0" to="274.4" begin="2.15s" dur="0.27s" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="row-clip-9">
-    <rect x="19.4" y="80.8" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.59s" dur="0.07s" fill="freeze" />
+    <rect x="62.8" y="163.5" width="0" height="18.5">
+      <animate attributeName="width" from="0" to="274.4" begin="2.42s" dur="0.27s" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="row-clip-10">
-    <rect x="19.4" y="87.0" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.65s" dur="0.07s" fill="freeze" />
+    <rect x="62.8" y="178.0" width="0" height="18.5">
+      <animate attributeName="width" from="0" to="274.4" begin="2.69s" dur="0.27s" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="row-clip-11">
-    <rect x="19.4" y="93.2" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.72s" dur="0.07s" fill="freeze" />
+    <rect x="62.8" y="192.5" width="0" height="18.5">
+      <animate attributeName="width" from="0" to="274.4" begin="2.96s" dur="0.27s" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="row-clip-12">
-    <rect x="19.4" y="99.4" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.78s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-13">
-    <rect x="19.4" y="105.6" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.85s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-14">
-    <rect x="19.4" y="111.8" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.91s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-15">
-    <rect x="19.4" y="118.0" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="0.98s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-16">
-    <rect x="19.4" y="124.2" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="1.04s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-17">
-    <rect x="19.4" y="130.4" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="1.11s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-18">
-    <rect x="19.4" y="136.6" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="1.18s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-19">
-    <rect x="19.4" y="142.8" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="1.24s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-20">
-    <rect x="19.4" y="149.0" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="1.31s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-21">
-    <rect x="19.4" y="155.2" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="1.37s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-22">
-    <rect x="19.4" y="161.4" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="1.44s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-23">
-    <rect x="19.4" y="167.6" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="1.50s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-24">
-    <rect x="19.4" y="173.8" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="1.57s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-25">
-    <rect x="19.4" y="180.0" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="1.63s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-26">
-    <rect x="19.4" y="186.2" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="1.70s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-27">
-    <rect x="19.4" y="192.4" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="1.76s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-28">
-    <rect x="19.4" y="198.6" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="1.83s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-29">
-    <rect x="19.4" y="204.8" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="1.89s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-30">
-    <rect x="19.4" y="211.0" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="1.96s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-31">
-    <rect x="19.4" y="217.2" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="2.02s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-32">
-    <rect x="19.4" y="223.4" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="2.09s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-33">
-    <rect x="19.4" y="229.6" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="2.16s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-34">
-    <rect x="19.4" y="235.8" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="2.22s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-35">
-    <rect x="19.4" y="242.0" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="2.29s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-36">
-    <rect x="19.4" y="248.2" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="2.35s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-37">
-    <rect x="19.4" y="254.4" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="2.42s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-38">
-    <rect x="19.4" y="260.6" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="2.48s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-39">
-    <rect x="19.4" y="266.8" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="2.55s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-40">
-    <rect x="19.4" y="273.0" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="2.61s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-41">
-    <rect x="19.4" y="279.2" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="2.68s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-42">
-    <rect x="19.4" y="285.4" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="2.74s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-43">
-    <rect x="19.4" y="291.6" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="2.81s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-44">
-    <rect x="19.4" y="297.8" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="2.87s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-45">
-    <rect x="19.4" y="304.0" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="2.94s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-46">
-    <rect x="19.4" y="310.2" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="3.00s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-47">
-    <rect x="19.4" y="316.4" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="3.07s" dur="0.07s" fill="freeze" />
-    </rect>
-  </clipPath>
-  <clipPath id="row-clip-48">
-    <rect x="19.4" y="322.6" width="0" height="8.2">
-      <animate attributeName="width" from="0" to="341.20000000000005" begin="3.13s" dur="0.07s" fill="freeze" />
+    <rect x="62.8" y="207.0" width="0" height="18.5">
+      <animate attributeName="width" from="0" to="274.4" begin="3.23s" dur="0.27s" fill="freeze" />
     </rect>
   </clipPath>
 </defs>
-  <text x="19.4" y="30.0" class="ascii-text" clip-path="url(#row-clip-0)">                 .                            ........`````..   .:=*s%%%%%%%%%%%%%%%%%%%%%%%%%%%</text>
-  <text x="19.4" y="36.2" class="ascii-text" clip-path="url(#row-clip-1)">                ..                        ....````...     .:-+c#%@@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%</text>
-  <text x="19.4" y="42.4" class="ascii-text" clip-path="url(#row-clip-2)">                ..                   .`.````..      .:=*s#%@@@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</text>
-  <text x="19.4" y="48.6" class="ascii-text" clip-path="url(#row-clip-3)">                `.            ...``...`       `:=*s#%@@@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</text>
-  <text x="19.4" y="54.8" class="ascii-text" clip-path="url(#row-clip-4)">                :`.   ........        `.`-+cs%%@@@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@%%%%@@</text>
-  <text x="19.4" y="61.0" class="ascii-text" clip-path="url(#row-clip-5)">       .....    : .           ..`:-+cs%%@@@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@##ssc*+=*%%@@#+</text>
-  <text x="19.4" y="67.2" class="ascii-text" clip-path="url(#row-clip-6)">......          :    ..`:-=+*css##%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%-       +%@%*:  </text>
-  <text x="19.4" y="73.4" class="ascii-text" clip-path="url(#row-clip-7)">                :``:-=css##%%%%%%@@%%@@%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@c.      +%@s=   `*</text>
-  <text x="19.4" y="79.6" class="ascii-text" clip-path="url(#row-clip-8)">      ..`:--=+*c###%@@@@@@@@%%%##sc%%++s%sc##+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%=      -##+`  .=cs*</text>
-  <text x="19.4" y="85.8" class="ascii-text" clip-path="url(#row-clip-9)">**cs##%%%%@@@@%%##sc*++=--:``..  .**.`c#***@%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%@s:     :cc:   `=+=`  </text>
-  <text x="19.4" y="92.0" class="ascii-text" clip-path="url(#row-clip-10)">%%####sssss-..  :               +c:`c%+`ss::c@@%%%%%%%%%%%%%%%%%%%%%%%@@@%c`    `==.   .:`.     </text>
-  <text x="19.4" y="98.2" class="ascii-text" clip-path="url(#row-clip-11)">###%%%%@@c`     :             :c=`+#c:-``c=-`-s@%%%%%%%%%%%%%%%%%%%@@@#cs:     .`               </text>
-  <text x="19.4" y="104.4" class="ascii-text" clip-path="url(#row-clip-12)">%%%%%@@s-       `.          .*+:=sc+`  +c=*+:..=#@%%%%%%%%%%@@%%@@%#*:.`                        </text>
-  <text x="19.4" y="110.6" class="ascii-text" clip-path="url(#row-clip-13)">%%%%@#=         `.         =*:-ss*-.  `#@#+=*=.  =#@@@@@@@@%###sss+:`.:`.`....                  </text>
-  <text x="19.4" y="116.8" class="ascii-text" clip-path="url(#row-clip-14)">%%%%*`          `.       `*=`+sc*:    #@%@@#++c:  .*sssss##cs#c=--======+++++++++++++++=`.      </text>
-  <text x="19.4" y="123.0" class="ascii-text" clip-path="url(#row-clip-15)">%%%` `          `.      =*-:*ss=     s@@%#sc*:--::```````...``. .:::::``.          ....=-+.     </text>
-  <text x="19.4" y="129.2" class="ascii-text" clip-path="url(#row-clip-16)">%%% .`          ..    :*c==c#*.     *@%c*sscs#s##########ssscccsc-------==-````.       .c*+     </text>
-  <text x="19.4" y="135.4" class="ascii-text" clip-path="url(#row-clip-17)">%%%. `          ..  .+sc:=%#-      +#=-+=---:c@%%%%%%%%%%%%%%%%#:::.    -+*s*=:-*=::---`**s`    </text>
-  <text x="19.4" y="141.6" class="ascii-text" clip-path="url(#row-clip-18)">%%%. `          .  -s#c+s@+       :+:+=.    =%%%%%%%%%%%%%%%%%@c.==     .+--#%%=*+ -*+=-`:%+    </text>
-  <text x="19.4" y="147.8" class="ascii-text" clip-path="url(#row-clip-19)">@@@. `           :c@%ss@s:`.`   ```:*- .-+c#@%%%%%%%%%%%%%%%%%%c.`.-`-*s%@#`:sc-..:-::`. c%+    </text>
-  <text x="19.4" y="154.0" class="ascii-text" clip-path="url(#row-clip-20)">###-`-``..      +%@%%%%= `*s+---`-=scc#%@@@%%%%%%%%%%%%%%%%%%%@+.=+ss@@@@%#+-`  ...   `:*##*.   </text>
-  <text x="19.4" y="160.2" class="ascii-text" clip-path="url(#row-clip-21)">##%: .        -#@@@@%%*====+c==c#sss#%%%%%%%%%%%%%%%%%%%%%%%%%%-.#@@sccc+:  .`+s#:`=*s#**ss*.   </text>
-  <text x="19.4" y="166.4" class="ascii-text" clip-path="url(#row-clip-22)">%%@` ..`:=+*cs@%#c+-`     ``  :c####scc########%%%%%%@@@@@@@@@%``%%#*---++..:#%##s@@@@cssc#=.   </text>
-  <text x="19.4" y="172.6" class="ascii-text" clip-path="url(#row-clip-23)">@@@###%##sc*=------=+++++c#*=--=%@%%@@%%%%%%%#####%%sccccccccs*`-+-*c=--+=`::css##%%ssc*s*s-    </text>
-  <text x="19.4" y="178.8" class="ascii-text" clip-path="url(#row-clip-24)">c*+*+=:.    .:+s#%@@@#ss%@%s##@@%%%%%%%%@%%%%%%###*:        .:`.:. ::.:=cs#%@%@##%#s*c#+c+s:    </text>
-  <text x="19.4" y="185.0" class="ascii-text" clip-path="url(#row-clip-25)">       .`:`-c%%%%%sc*c%%%s*c#%%%%%%%%%%@scs#%@%#c**csc*+=-:::::::-+-*%@@@@@%%##s#sss%#s=``s-:`..</text>
-  <text x="19.4" y="191.2" class="ascii-text" clip-path="url(#row-clip-26)">.`-=*cs#s==s%%%%#**s%@%%%#%@%%%%%%%%%%%*+c%%%#cc#@@@@@@@@@@c=-=*s#@ss#@%%#sss##s#%%####=.-%@@%%%</text>
-  <text x="19.4" y="197.4" class="ascii-text" clip-path="url(#row-clip-27)">.:=+cc*==cssccc*+c%@%%%%%@%%%%%%%%%%%%%s%@@#cc#%%######@%*:`-*ccss*%#s#ss#%@@@##sscss##*:s@%%%%%</text>
-  <text x="19.4" y="203.6" class="ascii-text" clip-path="url(#row-clip-28)">---:::-+==--cc+c%@%%%%%%%%%%%%%%%%%%%%%@@#cc#@@@@%%%###c:`=cscccc#s*ss#%@@%c+*ssss###%#ss%%%%%%%</text>
-  <text x="19.4" y="209.8" class="ascii-text" clip-path="url(#row-clip-29)">-=+*s*c#=+-=**#@%%%%%%%%%%%%%%%%%%%%%%%%ss*csss##%%##c-`-c#sc+==cc#*s#@#*-``:+ss#%%%%%%%@%%%%%@@</text>
-  <text x="19.4" y="216.0" class="ascii-text" clip-path="url(#row-clip-30)">%@@@%=c+-+cs#@%%%%%%%%@%%%%%%%%%%%%%%@%ccssccccc**ss=`-*#%s#-:%+=+sc#*-``:=c###%%%%%%%%%%%%@@%c:</text>
-  <text x="19.4" y="222.2" class="ascii-text" clip-path="url(#row-clip-31)">@@@@s*+*+c%%@@@%%%%%%#c#%%%%%%%%%%%%%sc#=``-+=-+##+`-c#%##cc`-`-=*cs#-:+c#%#%%####%%%%%%%@@s=.  </text>
-  <text x="19.4" y="228.4" class="ascii-text" clip-path="url(#row-clip-32)">#c+-:ss*cccccs##%%%%%**%@@@%%%%%%%%%#css::*c==+*+`-c%@@%#s= +s:s==cc%####%%##s#%%%%%%%@@%*:     </text>
-  <text x="19.4" y="234.6" class="ascii-text" clip-path="url(#row-clip-33)">    .*#%s#sccc******ccsss###%%%%@@@%s##sc*c***=--s%%%ssssc#--``s:`c*##%%##s#%%@%%%%%@%s=.       </text>
-  <text x="19.4" y="240.8" class="ascii-text" clip-path="url(#row-clip-34)">    `cscc#*#%%%%%##ssc******+++**cc*+++++==-==+s%#sss#%@%ss-:*--`-%%%%###%%@%%%%%@@#*`        :c</text>
-  <text x="19.4" y="247.0" class="ascii-text" clip-path="url(#row-clip-35)">....-ssss%#sscss###%%%@@%%%##ssssccccccccccss#####%%@@%%##c:*c-=-s%%##%%%%%%%%@@%c-         =s#*</text>
-  <text x="19.4" y="253.2" class="ascii-text" clip-path="url(#row-clip-36)">:::`=###scsssssssssscsssss##%%%%#s@@@%#%%%%s%%%%@%%%%%%@#s%c--=+#@%%%%%%%%%%@@#+`        `*sc:  </text>
-  <text x="19.4" y="259.4" class="ascii-text" clip-path="url(#row-clip-37)">::--::-+cs####ss#s#######ssscc*cs%@%#ss#####@%%%%%%%%%%#s%####%@%%%%%%%%%@@%c-    .    -*c=   ::</text>
-  <text x="19.4" y="265.6" class="ascii-text" clip-path="url(#row-clip-38)">:``...``:--=+csss###########c*++=--:::--==+cs%%%#######%%%%%%%%%%%%%%%%@@#+`   `-`  .=+=`  .==. </text>
-  <text x="19.4" y="271.8" class="ascii-text" clip-path="url(#row-clip-39)">::-=+++++*+++++*css#%@%%%%%%####scccc******cs%###%%%%%%%%%%%%%%%%%%%@@%c-.   -+-. `--`   .++.  =</text>
-  <text x="19.4" y="278.0" class="ascii-text" clip-path="url(#row-clip-40)">c***ccssccssss#%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@%@@@%###%%%%%%%%%%%%%@%s+:.  .+s+. `:`    `+*` `*@%</text>
-  <text x="19.4" y="284.2" class="ascii-text" clip-path="url(#row-clip-41)">cs###ss####%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#ss#%%%%%%%%%%%%%%#c+:.  `*#*`  .     `**` :s@%- </text>
-  <text x="19.4" y="290.4" class="ascii-text" clip-path="url(#row-clip-42)">#####%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%####%%%%%%%%%%%%%%%#c=:   -s@c`        `*c-`=#@%=.:c</text>
-  <text x="19.4" y="296.6" class="ascii-text" clip-path="url(#row-clip-43)">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@%c-`  `+%@s`        `*c=-*%@%+`=s@@</text>
-  <text x="19.4" y="302.8" class="ascii-text" clip-path="url(#row-clip-44)">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@#*`   -c@@s:        `*s*+s@@%*=*%@@%%</text>
-  <text x="19.4" y="309.0" class="ascii-text" clip-path="url(#row-clip-45)">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@#*:   `+#@@#-        `*#sc#@@%scs%@%%%%%</text>
-  <text x="19.4" y="315.2" class="ascii-text" clip-path="url(#row-clip-46)">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@%c-.   -c%@@#=        `c%@%%@%%%%#@@%%%%%%%</text>
-  <text x="19.4" y="321.4" class="ascii-text" clip-path="url(#row-clip-47)">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%c=.   `+#@@@#+.       :c%@%%%%%%%%%%%%%%%%%%%</text>
-  <text x="19.4" y="327.6" class="ascii-text" clip-path="url(#row-clip-48)">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#+`    :c%@%%%*.       `c@@%%%%%%%%%%%%%%%%%%%%%</text>
+  <text x="62.8" y="44.0" class="ascii-text" clip-path="url(#row-clip-0)">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠿⠿⠏⠁⠀⠠⠤⠤⢤⣤⣤⠄⠀⣀⣀⡉⠉⠛⠻⢿⣿⣿</text>
+  <text x="62.8" y="58.5" class="ascii-text" clip-path="url(#row-clip-1)">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠋⠉⣉⣭⣽⣿⣶⣶⣶⡶⠶⡆⣠⡬⠭⣤⠄⠀⡀⠀⠀⠀⠯⠭⠍⠓⠒⠂⠀⣠⣿</text>
+  <text x="62.8" y="73.0" class="ascii-text" clip-path="url(#row-clip-2)">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⢿⡿⠟⠋⣁⣠⣴⠤⠄⠈⠉⠉⠉⠛⠛⠻⠿⠖⠋⠙⠀⠀⠈⠀⠀⠀⠉⢉⡓⠶⠆⣀⣤⣶⣶⣶⣭⢻⣿</text>
+  <text x="62.8" y="87.5" class="ascii-text" clip-path="url(#row-clip-3)">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠇⠀⠀⠀⠴⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠔⠁⠀⠀⠀⠀⠀⠀⢀⣤⣾⣿⠿⣛⣭⣷⣿⡿⠛⠛⠁⣾⣿</text>
+  <text x="62.8" y="102.0" class="ascii-text" clip-path="url(#row-clip-4)">⣿⣿⣿⣿⣿⠿⣋⣥⣄⣐⣄⠀⠀⠀⠐⠀⠂⠀⠀⠄⠀⢄⡀⢤⡴⢒⠀⢠⠊⠀⠀⢀⣤⡀⠀⣤⣾⠿⢛⡍⢰⡶⣶⡄⠈⠙⠀⠀⠀⢹⣿⣿</text>
+  <text x="62.8" y="116.5" class="ascii-text" clip-path="url(#row-clip-5)">⣿⣿⣿⡿⠁⣮⣾⣿⣿⣿⣿⣿⣶⣤⣤⣤⣄⣀⣀⣀⣀⠀⠀⠀⠀⣀⣀⣀⣀⡀⡀⠀⢤⠴⠚⢭⣶⣿⣿⡏⣰⣿⣿⡿⠀⠀⠀⠀⠀⠀⣿⣿</text>
+  <text x="62.8" y="131.0" class="ascii-text" clip-path="url(#row-clip-6)">⣿⣿⠟⠀⢀⣿⣿⣿⣿⣿⣿⡿⠟⠛⠛⠛⠋⢉⣽⠿⣛⣯⣴⣿⣿⣿⠿⠛⠛⢿⢑⡥⠒⠁⠀⣸⠿⠛⢙⡀⠹⠟⠛⣡⠀⠀⠀⠀⠀⠀⣾⣿</text>
+  <text x="62.8" y="145.5" class="ascii-text" clip-path="url(#row-clip-7)">⣿⡏⣴⢂⠳⠬⣛⣻⡿⠿⢿⣷⣶⣶⣶⠾⠟⡏⣀⡭⣠⣼⣿⣿⡿⠁⠀⠀⠀⠀⣸⠁⠀⠀⡠⠔⠠⠔⠊⠁⠀⠀⠀⣀⡴⣷⣶⣶⣿⣷⣿⣿</text>
+  <text x="62.8" y="160.0" class="ascii-text" clip-path="url(#row-clip-8)">⣿⡿⠀⠿⣷⣶⣏⡽⣁⣉⣁⣒⣲⣶⣶⣄⣀⣇⣴⣾⣿⣿⣿⣿⠁⠀⠀⠀⠀⠀⡻⠦⠀⠀⠀⠀⠀⠀⣀⣠⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</text>
+  <text x="62.8" y="174.5" class="ascii-text" clip-path="url(#row-clip-9)">⡟⠁⠀⠀⠀⠉⠛⠛⠛⠛⠻⠿⠿⠛⠛⠛⠛⠛⠻⢿⣿⠟⠉⠁⠀⠀⠀⠀⠀⠀⠠⠀⣀⡤⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</text>
+  <text x="62.8" y="189.0" class="ascii-text" clip-path="url(#row-clip-10)">⣿⣷⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⣤⠤⠀⠀⠀⠀⠀⠀⠴⣿⣷⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</text>
+  <text x="62.8" y="203.5" class="ascii-text" clip-path="url(#row-clip-11)">⣿⣿⣿⣿⣿⣶⣦⣤⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢶⣤⣀⣤⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</text>
+  <text x="62.8" y="218.0" class="ascii-text" clip-path="url(#row-clip-12)">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</text>
 </svg>

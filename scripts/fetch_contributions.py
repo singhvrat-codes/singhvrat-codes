@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-def fetch_contributions(username="AVIVASHISHTA29", output_json="data/contributions.json"):
+def fetch_contributions(username="singhvrat-codes", output_json="data/contributions.json"):
     url = f"https://github.com/users/{username}/contributions"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -135,5 +135,5 @@ def generate_mock_contributions(username, output_json):
     print(f"Generated mock contribution calendar saved to {output_json}")
 
 if __name__ == "__main__":
-    uname = sys.argv[1] if len(sys.argv) > 1 else "AVIVASHISHTA29"
+    uname = sys.argv[1] if len(sys.argv) > 1 else "singhvrat-codes"
     fetch_contributions(uname)

@@ -5,14 +5,14 @@ def generate_info_card(output_path="info-card.svg", width=490, height=350):
     is_static = os.getenv("STATIC") == "1"
 
     lines = [
-        ("user@github", "-----------------------------", "#58a6ff"),
+        ("singhvrat-codes@github", "-----------------------------", "#58a6ff"),
         ("OS", "Ubuntu / macOS / Windows", "#8b949e"),
         ("Host", "Developer Workstation v2026", "#8b949e"),
         ("Shell", "zsh / bash 5.2", "#8b949e"),
         ("Role", "Full-Stack & Systems Engineer", "#58a6ff"),
         ("Stack", "Python, TypeScript, Rust, Docker", "#7ee787"),
         ("Now", "Building animated SVG profile generators", "#ffa657"),
-        ("Highlights", "9,000+ Annual Contribs | Open Source Contributor", "#d2a8ff"),
+        ("Highlights", "Open Source Contributor | Dev Explorer", "#d2a8ff"),
     ]
 
     svg = []
@@ -46,7 +46,7 @@ def generate_info_card(output_path="info-card.svg", width=490, height=350):
     svg.append('<circle cx="18" cy="16" r="5" class="dot-red" />')
     svg.append('<circle cx="34" cy="16" r="5" class="dot-yellow" />')
     svg.append('<circle cx="50" cy="16" r="5" class="dot-green" />')
-    svg.append(f'<text x="{width // 2}" y="20" text-anchor="middle" class="title-text">user@github ~ neofetch</text>')
+    svg.append(f'<text x="{width // 2}" y="20" text-anchor="middle" class="title-text">singhvrat-codes@github ~ neofetch</text>')
 
     # Palette badges
     palette_colors = ["#161b22", "#ff5f56", "#27c93f", "#ffbd2e", "#58a6ff", "#bc8cff", "#39d353", "#e6edf3"]

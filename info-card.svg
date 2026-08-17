@@ -21,10 +21,10 @@
 <circle cx="18" cy="16" r="5" class="dot-red" />
 <circle cx="34" cy="16" r="5" class="dot-yellow" />
 <circle cx="50" cy="16" r="5" class="dot-green" />
-<text x="245" y="20" text-anchor="middle" class="title-text">user@github ~ neofetch</text>
+<text x="245" y="20" text-anchor="middle" class="title-text">singhvrat-codes@github ~ neofetch</text>
 <g class="animated-row" style="animation-delay: 0.00s;">
-  <text x="24" y="65" class="key-text" style="fill: #58a6ff;">user@github</text>
-  <text x="140" y="65" class="val-text" style="fill: #8b949e;">-----------------------------</text>
+  <text x="24" y="65" class="key-text" style="fill: #58a6ff;">singhvrat-codes@github:</text>
+  <text x="130" y="65" class="val-text">-----------------------------</text>
 </g>
 <g class="animated-row" style="animation-delay: 0.12s;">
   <text x="24" y="93" class="key-text" style="fill: #8b949e;">OS:</text>
@@ -52,7 +52,7 @@
 </g>
 <g class="animated-row" style="animation-delay: 0.84s;">
   <text x="24" y="261" class="key-text" style="fill: #d2a8ff;">Highlights:</text>
-  <text x="130" y="261" class="val-text">9,000+ Annual Contribs | Open Source Contributor</text>
+  <text x="130" y="261" class="val-text">Open Source Contributor | Dev Explorer</text>
 </g>
 <g class="animated-row" style="animation-delay: 0.96s;">
   <rect x="24" y="299" width="20" height="12" rx="3" fill="#161b22" />

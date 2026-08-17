@@ -1,18 +1,18 @@
 import os
 import html
 
-def generate_info_card(output_path="info-card.svg", width=490, height=350):
+def generate_info_card(output_path="info-card.svg", width=490, height=360):
     is_static = os.getenv("STATIC") == "1"
 
     lines = [
-        ("singhvrat-codes@github", "-----------------------------", "#58a6ff"),
-        ("OS", "Ubuntu / macOS / Windows", "#8b949e"),
-        ("Host", "Developer Workstation v2026", "#8b949e"),
-        ("Shell", "zsh / bash 5.2", "#8b949e"),
-        ("Role", "Full-Stack & Systems Engineer", "#58a6ff"),
-        ("Stack", "Python, TypeScript, Rust, Docker", "#7ee787"),
-        ("Now", "Building animated SVG profile generators", "#ffa657"),
-        ("Highlights", "Open Source Contributor | Dev Explorer", "#d2a8ff"),
+        ("singhvrat-codes@github", "----------------------------------------", "#58a6ff"),
+        ("OS", "Windows / Linux", "#8b949e"),
+        ("Host", "B.Tech CSE (AI/ML)", "#8b949e"),
+        ("Role", "Full-Stack & AI/ML Developer", "#58a6ff"),
+        ("Stack", "Python, React, FastAPI, Java, TypeScript", "#7ee787"),
+        ("Now", "Building AI/ML & full-stack systems", "#ffa657"),
+        ("Projects", "EmptyLegs | ProofEscrow | D-ID", "#79c0ff"),
+        ("Highlights", "Hackathons | Research | Open Source", "#d2a8ff"),
     ]
 
     svg = []
@@ -25,7 +25,7 @@ def generate_info_card(output_path="info-card.svg", width=490, height=350):
     svg.append('  .dot-yellow { fill: #ffbd2e; }')
     svg.append('  .dot-green { fill: #27c93f; }')
     svg.append('  .title-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; fill: #8b949e; font-weight: 600; }')
-    svg.append('  .key-text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 13px; font-weight: bold; fill: #58a6ff; }')
+    svg.append('  .key-text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 13px; font-weight: bold; }')
     svg.append('  .val-text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 13px; fill: #c9d1d9; }')
     
     if not is_static:
@@ -52,30 +52,30 @@ def generate_info_card(output_path="info-card.svg", width=490, height=350):
     palette_colors = ["#161b22", "#ff5f56", "#27c93f", "#ffbd2e", "#58a6ff", "#bc8cff", "#39d353", "#e6edf3"]
 
     # Render info rows
-    start_y = 65
-    row_gap = 28
+    start_y = 62
+    row_gap = 26.5
 
     for idx, (key, val, color) in enumerate(lines):
         y_pos = start_y + idx * row_gap
-        delay = idx * 0.12
+        delay = idx * 0.10
         anim_attr = f' class="animated-row" style="animation-delay: {delay:.2f}s;"' if not is_static else ''
         
         svg.append(f'<g{anim_attr}>')
-        if key == "user@github":
+        if key == "singhvrat-codes@github":
             svg.append(f'  <text x="24" y="{y_pos}" class="key-text" style="fill: #58a6ff;">{html.escape(key)}</text>')
-            svg.append(f'  <text x="140" y="{y_pos}" class="val-text" style="fill: #8b949e;">{html.escape(val)}</text>')
+            svg.append(f'  <text x="180" y="{y_pos}" class="val-text" style="fill: #8b949e;">{html.escape(val)}</text>')
         else:
             svg.append(f'  <text x="24" y="{y_pos}" class="key-text" style="fill: {color};">{html.escape(key)}:</text>')
-            svg.append(f'  <text x="130" y="{y_pos}" class="val-text">{html.escape(val)}</text>')
+            svg.append(f'  <text x="125" y="{y_pos}" class="val-text">{html.escape(val)}</text>')
         svg.append('</g>')
 
     # Render palette blocks row at bottom
-    palette_y = start_y + len(lines) * row_gap + 10
-    anim_attr = f' class="animated-row" style="animation-delay: {(len(lines) * 0.12):.2f}s;"' if not is_static else ''
+    palette_y = start_y + len(lines) * row_gap + 6
+    anim_attr = f' class="animated-row" style="animation-delay: {(len(lines) * 0.10):.2f}s;"' if not is_static else ''
     svg.append(f'<g{anim_attr}>')
     for p_idx, p_col in enumerate(palette_colors):
         px = 24 + p_idx * 24
-        svg.append(f'  <rect x="{px}" y="{palette_y}" width="20" height="12" rx="3" fill="{p_col}" />')
+        svg.append(f'  <rect x="{px}" y="{palette_y}" width="20" height="11" rx="3" fill="{p_col}" />')
     svg.append('</g>')
 
     svg.append('</svg>')
@@ -86,4 +86,4 @@ def generate_info_card(output_path="info-card.svg", width=490, height=350):
     print(f"Successfully generated Neofetch info card SVG at {output_path}")
 
 if __name__ == "__main__":
-    generate_info_card("info-card.svg", width=490, height=350)
+    generate_info_card("info-card.svg", width=490, height=360)

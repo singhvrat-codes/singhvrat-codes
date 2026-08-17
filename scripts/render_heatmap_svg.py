@@ -25,7 +25,7 @@ def render_heatmap_svg(json_path="data/contributions.json", output_path="contrib
     step = cell_size + cell_gap
 
     start_x = 45
-    start_y = 45
+    start_y = 62  # Moved down so month labels (y=48) sit comfortably below header text (y=26)
 
     svg = []
     svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}">')
@@ -47,7 +47,7 @@ def render_heatmap_svg(json_path="data/contributions.json", output_path="contrib
     svg.append(f'<rect width="{width - 2}" height="{height - 2}" x="1" y="1" class="border" />')
 
     # Card Title / Summary Header
-    svg.append(f'<text x="24" y="28" class="header-text">{total_contribs:,} contributions in the last year</text>')
+    svg.append(f'<text x="24" y="26" class="header-text">{total_contribs:,} contributions in the last year</text>')
 
     # Render Day Labels (Mon, Wed, Fri)
     for idx, dname in enumerate(DAY_NAMES):
@@ -76,7 +76,7 @@ def render_heatmap_svg(json_path="data/contributions.json", output_path="contrib
         # Render Month Header if new month begins
         if dt.month != prev_month and w_day == 0:
             prev_month = dt.month
-            svg.append(f'<text x="{x_pos}" y="{start_y - 10}" class="label-text">{MONTH_NAMES[dt.month - 1]}</text>')
+            svg.append(f'<text x="{x_pos}" y="{start_y - 12}" class="label-text">{MONTH_NAMES[dt.month - 1]}</text>')
 
         level = min(d.get("level", 0), len(PALETTE) - 1)
         color = PALETTE[level]
@@ -105,7 +105,7 @@ def render_heatmap_svg(json_path="data/contributions.json", output_path="contrib
     with open(output_path, "w", encoding="utf-8") as f:
         f.write("\n".join(svg))
 
-    print(f"Successfully generated animated contribution heatmap SVG at {output_path}")
+    print(f"Successfully generated clean contribution heatmap SVG at {output_path}")
 
 if __name__ == "__main__":
     render_heatmap_svg("data/contributions.json", "contrib-heatmap.svg", width=860, height=210)
